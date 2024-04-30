@@ -24,3 +24,32 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction);
+
+
+
+
+
+
+
+
+// -------------------------------------------------------------------------------------
+
+let myName = "Tejas"
+
+let myNameTwo = myName
+myNameTwo = "Shah"
+
+console.log(myNameTwo);
+console.log(myName);
+
+let userOne = {
+    email: "abcd@.com",
+    id: 1234,
+}
+
+let userTwo = userOne
+
+userTwo.email = "abc@gamil.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
